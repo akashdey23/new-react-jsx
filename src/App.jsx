@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import ReactToast from './components/toast/reactToast'
+import StarRating from './components/starRating/StarRating'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <ReactToast />
+        {/* <ReactToast /> */}
+        <StarRating starCount={10}/>
       </div>
     </>
   )

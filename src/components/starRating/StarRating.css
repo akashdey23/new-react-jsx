@@ -1,0 +1,9 @@
+.gold{
+    color: goldenrod;
+    font-size: 2rem;
+}
+
+span{
+    font-size: 2rem;
+    cursor: pointer;
+}
