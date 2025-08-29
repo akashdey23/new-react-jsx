@@ -12,3 +12,20 @@ img{
     width: 100px;
     border-radius: 10px;
 }
+
+.pagination-container{
+    display: flex;
+    width: 550px;
+    justify-content: space-evenly;
+
+}
+
+.pageButton
+{
+    background-color: black;
+    padding: 1rem;
+    color: white;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+

@@ -6,6 +6,9 @@ import ReactToast from './components/toast/reactToast'
 import StarRating from './components/starRating/StarRating'
 // import Pagination from './components/pagination/Pagination'
 import Post from './components/pagination/Post'
+import Pagination from './components/pagination/Pagination'
+// import otp from './components/otp/otp'
+import Otp from './components/otp/otp'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,7 +18,8 @@ function App() {
       <div>
         {/* <ReactToast /> */}
         {/* <StarRating starCount={10}/> */}
-        <Post />
+        {/* <Post/> */}
+        <Otp />
       </div>
     </>
   )
